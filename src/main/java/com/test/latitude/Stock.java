@@ -12,7 +12,7 @@ public class Stock
 		
 		for(int i = 1; i< stockPrices.length ; i++) {	
 			
-			maxProfit = Math.max(maxProfit, stockPrices[i] - minSharePrice); // keep track  of max difference	
+			maxProfit = Math.max(maxProfit, stockPrices[i] - minSharePrice); // keep track  of max profit	
 			
 			minSharePrice = Math.min(stockPrices[i], minSharePrice); // keep track  of min share price
 						

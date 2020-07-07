@@ -29,6 +29,11 @@ public class StockTest {
 		int[] stockprices = {2,4,5,10,6,11}; 
 		assertEquals(9, Stock.getMaxProfit(stockprices));
 	}
+	@Test
+	public void test_getMaxProfitsWithRandomPrices4() {
+		int[] stockprices = {123,92,47,100,245,345}; 
+		assertEquals(298, Stock.getMaxProfit(stockprices));
+	}
 	
 	@Test
 	public void test_getMaxProfitsWithHighLowPriceInMiddle() {
